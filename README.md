@@ -147,19 +147,18 @@ A method named getGasLevel that accepts no parameters. getGasLevel returns the v
 
 
 public class GasTank {
-double amount = 0;
-void addGas(double voladd){
-this.amount = this.amount +  voladd;
-}
-void useGas(double volminus){
-this.amount = this.amount- volminus;
-}
-double getGasLevel(){
-return this.amount;
-}
-	
+	double amount = 0;
+	void addGas(double voladd){
+		this.amount = this.amount +  voladd;
+	}
+	void useGas(double volminus){
+		this.amount = this.amount- volminus;
+	}
+	double getGasLevel(){
+		return this.amount;
+	}
+	}
 
-}
 
 
 4. Design and implement a class called Car. You need to create necessary attributes for this class, and method if needed
