@@ -109,7 +109,7 @@ Public class MusicAlbum{
 	
 	public MusicAlbum(String albumTitle,String singer,double price) {
 	     this.albumTitle = albumTitle;
-this.price = price;
+             this.price = price;
              this.singer = singer;
 	     
 	}
@@ -121,12 +121,12 @@ this.price = price;
 	       this.AlbumTitle = AlbumTitle;
 	}
 	
-        public String getSinger() {
-        	return singer;
+       public String getSinger() {
+       return singer;
         }
 
-    	public void setSinger(String singer) {
-        	this.singer = singer;
+    public void setSinger(String singer) {
+       this.singer = singer;
     	}
 	
 	public double getPrice() {
@@ -172,8 +172,8 @@ public class Car {
      
      public Car(String brand,String color,String model,int mileage){
     	 
-    	 this.brand = brand;
-              this.color = color;
+    	this.brand = brand;
+        this.color = color;
 	this.model=model;
     	 this.mileage =mileage;
      }
